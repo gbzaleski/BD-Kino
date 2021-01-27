@@ -1,0 +1,84 @@
+table
+{
+    margin-top: -5px;
+    max-width: 70%;
+}
+
+td
+{
+    cursor: auto;
+}
+
+a
+{
+    padding: 3px 8px;
+    margin: 0 5px 0 5px;
+    border-radius: 20px;
+}
+
+a.butaccept
+{
+    background-color: #7CFC00;
+}
+
+a.butaccept:hover
+{
+    padding: 3px 5px;
+    background-color: #5ADA00;
+    font-weight: 750;
+    cursor: pointer;
+}
+
+a.butreject
+{
+    background-color: #ff0033;
+}
+
+a.butreject:hover
+{
+    padding: 3px 6px;
+    background-color: #DD0011;
+    font-weight: 750;
+    cursor: pointer;
+}
+
+td.shorten
+{
+    width: 300px;
+    max-width: 300px;
+    overflow: auto;
+    overflow-x:auto;
+    white-space: nowrap;
+}
+
+.scrollable
+{
+    overflow-x: auto;
+}
+
+.imber
+{
+    font-size: 150%; 
+    font-weight: 700;
+    padding: 5px 10px;
+    border: black;
+    margin-bottom: -10px;
+    display: inline-block;
+}
+
+.imber:hover
+{
+    background-color: blanchedalmond;
+    border-style: solid;
+    border-width: medium;
+    cursor: pointer;
+    padding: 3px 8px;
+}
+
+.queryform
+{
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
